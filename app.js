@@ -8,10 +8,11 @@ App({
     //接入Bmob后端云服务
     var Bmob = require('utils/Bmob-2.2.0.min.js');
     Bmob.initialize("49f38a82f26a10b4", "WXhang");
-    const query = Bmob.Query("tblBlogs");
-    query.find().then(res => {
-      console.log(res)
-    });
+    // const query = Bmob.Query("tblBlogs");
+    // query.find().then(res => {
+    //   console.log(res)
+    // });
+    /*
     // 登录
     wx.login({
       success: res => {
@@ -38,6 +39,7 @@ App({
         }
       }
     })
+    */
   },
   globalData: {
     userInfo: null
