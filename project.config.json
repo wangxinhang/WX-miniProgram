@@ -18,7 +18,8 @@
 			"ignore": [],
 			"disablePlugins": [],
 			"outputPath": ""
-		}
+		},
+		"nodeModules": true
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.0.4",
@@ -55,9 +56,10 @@
 			"current": -1,
 			"list": [
 				{
-					"id": -1,
-					"name": "pages/index/index",
-					"pathName": "pages/index/index",
+					"id": 0,
+					"name": "pages/home/home",
+					"pathName": "pages/home/home",
+					"query": "",
 					"scene": null
 				}
 			]
